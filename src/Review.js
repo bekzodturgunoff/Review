@@ -34,7 +34,7 @@ const Review = () => {
     if (randomNumber === index) {
       randomNumber = index + 1;
     }
-    setIndex(randomNumber);
+    setIndex(checkNumber(randomNumber));
   };
   return (
     <article>
